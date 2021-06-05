@@ -17,6 +17,7 @@ public class DataTypes{
   System.out.println("=========Fase input =========");
   System.out.print("Input nama depan : ");
   namaDepan = inputan.nextLine();
+  namaTengah = JOptionPane.showInputDialog("Input nama tengah : ");
 
   System.out.println("==========Fase output ========");
   System.out.print("Nama depan : ");
