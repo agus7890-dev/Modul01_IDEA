@@ -1,4 +1,6 @@
 import javax.swing.JOptionPane;
+import java.util.Scanner;
+
 public class DataTypes{
  public static void main(String[] args){
 
@@ -9,8 +11,14 @@ public class DataTypes{
   int lamaKuliah = 4;
   double ipk;
   char nilai = 'A';
-  boolean tampan = true;
+  
+  Scanner inputan = new Scanner(System.in);
 
+  System.out.println("=========Fase input =========");
+  System.out.print("Input nama depan : ");
+  namaDepan = inputan.nextLine();
+
+  System.out.println("==========Fase output ========");
   System.out.print("Nama depan : ");
   System.out.println(namaDepan);
   System.out.println("Nama tengah : " +namaTengah);
